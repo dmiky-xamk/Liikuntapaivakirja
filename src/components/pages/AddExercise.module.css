@@ -1,0 +1,41 @@
+.section-add {
+  padding: 2.4rem 1.2rem;
+  text-align: center;
+}
+
+.add-form {
+  display: grid;
+
+  grid-template-areas:
+    "description description"
+    "start-date end-date"
+    "add add"
+    "cancel cancel";
+
+  gap: 1.2rem;
+}
+
+.add-description {
+  grid-area: description;
+}
+
+.start-date {
+  grid-area: start-date;
+}
+
+.end-date {
+  grid-area: end-date;
+}
+
+.send {
+  grid-area: add;
+}
+
+.cancel {
+  grid-area: cancel;
+}
+
+.btn {
+  justify-self: center;
+  width: 50%;
+}

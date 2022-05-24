@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Roboto";
+  color: #333;
+}
+
+body {
+  background-color: #fafafa;
+  max-width: 900px;
+  margin: 0 auto;
+  /* text-align: center; */
+}
+
+.heading-primary {
+  font-size: 1.8rem;
+  margin-bottom: 1.6rem;
+}

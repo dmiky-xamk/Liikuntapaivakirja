@@ -1,0 +1,25 @@
+.section-home {
+  padding: 2.4rem 1.2rem;
+  text-align: center;
+}
+
+.exercises-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  text-align: center;
+}
+
+.left {
+  flex: 1;
+}
+
+.flex {
+  display: flex;
+  flex: 1;
+}
+
+.flex--column {
+  flex-direction: column;
+  gap: 0.4rem;
+}
